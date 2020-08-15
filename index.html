@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>To do</title>
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="./public/css/app.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <h5>Witaj na stronie </h5>
+        <div class="row">
+            <div class="col s7">
+                <label>
+                    <textarea id="input" class="materialize-textarea"></textarea>
+                    Zadanie
+                </label>
+
+                <div id="list-to-do"> </div>
+
+            </div>
+            <div class="col s5">
+                <a class="waves-effect waves-teal btn-flat" id="button" onclick="addTodo(event);">Dodaj button</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./public/js/app_classes.js"></script>
+
+</body>
+</html>
